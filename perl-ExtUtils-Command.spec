@@ -8,7 +8,7 @@
 Summary:	Shell::Command - Cross-platform functions emulating common shell commands
 Name:		perl-ExtUtils-Command
 Version:	1.16
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -48,6 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/Shell
 %{perl_vendorlib}/ExtUtils/*.pm
 %{perl_vendorlib}/Shell/*.pm
 %{_mandir}/man3/*
