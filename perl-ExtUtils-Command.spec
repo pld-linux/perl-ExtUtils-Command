@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	ExtUtils
 %define	pnam	Command
 Summary:	Shell::Command - Cross-platform functions emulating common shell commands
